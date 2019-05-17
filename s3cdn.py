@@ -1,5 +1,5 @@
 import requests
-file="domains.txt"
+file="s3CNAME"
 fh=open(file,"r")
 websites = []
 for each in fh.readlines():
