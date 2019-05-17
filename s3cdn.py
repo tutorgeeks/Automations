@@ -1,6 +1,5 @@
 import requests
-file="s3CNAME"
-fh=open(file,"r")
+fh=open(s3CNAME,"r")
 websites = []
 for each in fh.readlines():
     websites.append(each.strip("\n"))
