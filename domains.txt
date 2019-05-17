@@ -1,0 +1,2 @@
+List of all CNAME domains pointing to s3 buckets
+--------
