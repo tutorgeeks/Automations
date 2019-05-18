@@ -13,6 +13,6 @@ for i in websites:
         print "CloudFront takeover possible:"+" "+i
     elif "ListBucketResult" in r.content:
         print "Directory Listing found:"+" "+i
-    else
+    else:
         print "Access Denied:"+" "+i
 fh.close()
