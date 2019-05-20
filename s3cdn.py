@@ -1,5 +1,6 @@
 import requests
-file='domainlist.txt'
+import os
+file=os.environ['S3_CNAME']
 fh=open(file,"r")
 websites = []
 for each in fh.readlines():
