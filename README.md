@@ -5,5 +5,5 @@ Setup Instructions:
 2. create a file "domainlist.txt" and add all your CNAME domains
 3. Replace the file parameter value with "domainlist.txt"
 
-Usage:
+Usage of this file:
 python s3cdn.py
